@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-logih{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+  .left-logih h1{
+    color: #77ffc0;
+ }
+
+ .right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 30px 30px;
+    background: #2f2841;
+    box-shadow: 0px 10px 40px #00000056;
+    border-radius: 20px;
+ }
+ 
+ .card-login h1{
+    color: #00ff88;
+    font-weight: 800;
+    margin: 0;
+ }
+
+ .left-logih-img{
+    width: 35vw;
+ }
+
+ .textfild{
+    width: 100%;;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+ }
+
+ .textfild > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px #00000056;
+    outline: none;
+    box-sizing: border-box;
+   
+ }
+
+ .textfild label{
+    width: 100%;
+    margin-bottom: 10px;
+    color: #77ffc0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin: 12px 0px;
+ }
+
+ .textfild input::placeholder{
+    color: #f0ffff71;
+ }
+
+ .btn-login{
+    width: 100%;
+    background-color: #00ff88;
+    border-radius: 8px;
+    border: none;
+    color: #201b2c;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12pt;
+    padding: 16px 0px;
+    margin-top: 25px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+
+.btn-login:hover{
+    background-color: #77ffc0;
+}
+
+@media  only screen and (max-width:950px){
+    
+    .card-login{
+        width: 85%;
+    }
+
+    .left-login{
+        width: 100%;
+        height: auto;
+       
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+     }
+
+    .left-logih-img{
+        width: 50vw;
+     }
+    
+}
+
+@media  only screen and (max-width:600px){
+    .main-login{
+        flex-direction: column;        
+    }
+    .left-login{
+        width: 100%;
+        height: auto;
+       
+    }
+    .right-login{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+     }
+
+     .left-logih-img{
+        width: 50vw;
+     }
+
+     .card-login{
+        width: 90%;;
+     }
+}
