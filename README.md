@@ -1,5 +1,5 @@
 #  Formulario Login Dark :alien:
-Formulário de login resposivo.
+Formulário de login responsivo.
 
 <br>
 
